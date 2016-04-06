@@ -5,7 +5,7 @@
 
 	<groupId>za.co.discovery.assignment</groupId>
 	<artifactId>ivhanimaselesele</artifactId>
-	<version>1.0.0_SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Discovery</name>
@@ -37,12 +37,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>4.2.4.RELEASE</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
