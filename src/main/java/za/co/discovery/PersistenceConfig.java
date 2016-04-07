@@ -23,7 +23,7 @@ public class PersistenceConfig {
                                                   @Qualifier("hibernateProperties") Properties properties) {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource);
-        sessionFactory.setPackagesToScan("za.co.bsg.noma.models");
+        sessionFactory.setPackagesToScan("za.co.discovery.Models");
         sessionFactory.setHibernateProperties(properties);
 
         return sessionFactory;
