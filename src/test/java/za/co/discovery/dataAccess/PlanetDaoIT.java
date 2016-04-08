@@ -30,11 +30,9 @@ public class PlanetDaoIT {
 
     private PlanetDAO planetDAO;
 
-
     @Before
     public void init() {
         planetDAO = new PlanetDAO(sessionFactory);
-
     }
 
     @Test

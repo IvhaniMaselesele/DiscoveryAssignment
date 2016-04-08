@@ -23,7 +23,8 @@ public class ShortestPathController {
 
     @RequestMapping("/round")
     public String shortestPath(HttpSession session) {
-        fileReadingService.readFile();
+        fileReadingService.readPlanetSheet();
+        fileReadingService.readRouteAndTrafficSheets();
         return "index";
     }
 }

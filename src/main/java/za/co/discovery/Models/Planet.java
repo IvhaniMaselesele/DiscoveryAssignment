@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @javax.persistence.Entity
-@Table(name = "RoundDetails")
+@Table(name = "planet")
 public class Planet {
 
     @Id
@@ -16,7 +16,6 @@ public class Planet {
     private String name;
 
     protected Planet() {
-
     }
 
     public Planet(String node, String name) {
