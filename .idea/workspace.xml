@@ -1,34 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe0fd06-5bd9-4e2e-80e9-e2df99f5d258" name="Default" comment="Add DAO and fileReading service">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/za/co/discovery/DaoConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_shazam_shazamcrest_0_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_10_FINAL.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_10_FINAL.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_10_FINAL.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20140107.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Planet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/PlanetDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/PlanetDaoIT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/DiscoveryApplication.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/DiscoveryApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/DataSourceConfig.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/DataSourceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/DiscoveryApplication.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/DiscoveryApplication.java" />
+    <list default="true" id="dbe0fd06-5bd9-4e2e-80e9-e2df99f5d258" name="Default" comment="Add RouteDAO and import Routes from excel file">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_ws_1_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_core_2_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_support_2_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_xml_2_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="07996f7c-433d-44ee-ae4d-324206d36b4a" name="Failed commit: Default" comment="Get planet name from user and calculate shortest distance">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c10.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c101.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c111.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c121.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c130.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c141.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c150.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c161.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c171.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c180.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c191.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1c0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1e0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c20.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c200.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c211.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c221.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c230.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c241.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c251.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c260.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c271.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c281.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c290.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2c1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2d0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2f0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c300.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c31.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c311.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c321.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c331.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c340.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c351.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c361.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c371.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c380.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c391.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3ab0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3ac1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3ad0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3ae1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3c0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c400.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c41.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c411.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c421.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c430.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c441.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c451.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c461.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c470.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c481.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c51.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c60.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c71.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c81.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c8f0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c90.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c901.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/ca1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/cb1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/cc0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/cd1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/ce1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/cf0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/d3a70.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/d3a81.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/d3a90.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/d3aa1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/db.lck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/log/log.ctrl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/log/log10.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/log/logmirror.ctrl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/dataObjects/~$planetTravelDetails.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/DijkstraAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/za/co/discovery/services/DijkstraAlgorithmTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Edge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/GetPathRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/GetPathResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Graph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/GraphService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/ObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/Path.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/repository/PathRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/log/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/ShortestPathService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Vertex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/derby.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/path.xsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/planet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/planets.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/service.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/shortestdistance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/controllers/ShortestPathController.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/controllers/ShortestPathController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DiscoveryProject.iml" afterPath="$PROJECT_DIR$/DiscoveryProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/PersistenceConfig.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/PersistenceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Route.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Route.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DiscoveryProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +145,17 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DiscoveryProject$All_in_DiscoveryProject.coverage" NAME="All in DiscoveryProject Coverage Results" MODIFIED="1460038035053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DiscoveryProject$RouteDAOIT.coverage" NAME="RouteDAOIT Coverage Results" MODIFIED="1460102745972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>za.co.discovery.dataAccess.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DiscoveryProject$ShortestPathControllerTest_getPlanetsReturnsPlanetsPage.coverage" NAME="ShortestPathControllerTest.getPlanetsReturnsPlanetsPage Coverage Results" MODIFIED="1460533842284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>za.co.discovery.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DiscoveryProject$App.coverage" NAME="App Coverage Results" MODIFIED="1460107774144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DiscoveryProject$All_in_DiscoveryProject.coverage" NAME="All in DiscoveryProject Coverage Results" MODIFIED="1460539129869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -61,53 +172,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FileReadingService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/FileReadingService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlanetDaoIT.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/PlanetDaoIT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileReadingServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/services/FileReadingServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
+                <element signature="method#getRouteRowValues#0;class#FileReadingService#0" expanded="false" />
+                <element signature="e#3217#3218#0" expanded="false" />
+                <element signature="e#3260#3261#0" expanded="false" />
+                <element signature="e#3305#3306#0" expanded="false" />
+                <element signature="e#3350#3351#0" expanded="false" />
+                <marker date="1460542750456" expanded="true" signature="42:672" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -117,72 +193,72 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="33" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="false" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Planet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Planet.java">
+      <file leaf-file-name="PathRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/repository/PathRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShortestPathService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/ShortestPathService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
+                <marker date="1460542631500" expanded="true" signature="35:144" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShortestPathControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java">
+      <file leaf-file-name="planets.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/planets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+            <state vertical-scroll-proportion="0.067961164">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscoveryApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/DiscoveryApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscoveryApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/DiscoveryApplication.java">
+      <file leaf-file-name="path.xsd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/path.xsd">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#776#777#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlanetDAO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/PlanetDAO.java">
+      <file leaf-file-name="Path.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/Path.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1832994">
-              <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -192,9 +268,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Html5" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -214,22 +290,43 @@
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/excelFileDAO.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/excelFileDAOTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/DaoConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/DaoConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/PersistenceConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/ExcelFileDAOTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/ExcelFileDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/services/fileReadingService.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/services/fileReadingServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Planet.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/PlanetDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/RouteDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/RouteDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/RouteDAOIT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/PlanetDaoIT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Planet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/services/CalculateShortestDistanceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/services/CalculateShortestDistance.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/services/DijkstraAlgorithmTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Route.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Edge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/services/DijkstraAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Graph.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/services/FileReadingServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/planet.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/shortestdistance.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/planet.js" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/services/GraphService.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/services/FileReadingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/services/PathService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/services/ShortestPathService.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/services/FileReadingServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/PlanetDaoIT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Path.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/path.xsd" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/repository/PathRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/planets.html" />
+        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/ExcelFileDAOTest.java" />
       </list>
     </option>
   </component>
@@ -253,10 +350,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="y" value="2" />
+    <option name="width" value="1932" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -281,6 +378,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -372,36 +471,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DiscoveryProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DiscoveryAssignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -485,52 +554,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dataObjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DiscoveryProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DiscoveryAssignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discovery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="dataAccess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gs-soap-service/initial" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
@@ -544,11 +581,17 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="za.co.discovery.dataAccess" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\src\main\java\za\co\discovery" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\src\main\resources\static\js" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="za.co.discovery" />
@@ -559,27 +602,7 @@
       <recent name="za.co.discovery.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in DiscoveryProject">
-    <configuration default="false" name="DiscoveryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="za.co.discovery.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="za.co.discovery.DiscoveryApplication" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DiscoveryProject" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.App">
     <configuration default="false" name="All in DiscoveryProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="DiscoveryProject" />
@@ -601,7 +624,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FileReadingServiceTest.persistPlanetShouldSavePlanet_AndReturnResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DijkstraAlgorithmTest.testExcute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="za.co.discovery.services.*" />
@@ -612,8 +635,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="za.co.discovery.services" />
-      <option name="MAIN_CLASS_NAME" value="za.co.discovery.services.FileReadingServiceTest" />
-      <option name="METHOD_NAME" value="persistPlanetShouldSavePlanet_AndReturnResult" />
+      <option name="MAIN_CLASS_NAME" value="za.co.discovery.services.DijkstraAlgorithmTest" />
+      <option name="METHOD_NAME" value="testExcute" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -627,20 +650,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FileReadingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ShortestPathControllerTest.getPlanetsReturnsPlanetsPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="za.co.discovery.services.*" />
+          <option name="PATTERN" value="za.co.discovery.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="DiscoveryProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="za.co.discovery.services" />
-      <option name="MAIN_CLASS_NAME" value="za.co.discovery.services.FileReadingServiceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="za.co.discovery.controllers" />
+      <option name="MAIN_CLASS_NAME" value="za.co.discovery.controllers.ShortestPathControllerTest" />
+      <option name="METHOD_NAME" value="getPlanetsReturnsPlanetsPage" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -653,19 +676,45 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="FileReadingServiceTest.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ShortestPathControllerTest.rootReturnsIndexPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="za.co.discovery.services.*" />
+          <option name="PATTERN" value="za.co.discovery.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="DiscoveryProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="za.co.discovery.services" />
-      <option name="MAIN_CLASS_NAME" value="za.co.discovery.services.FileReadingServiceTest" />
-      <option name="METHOD_NAME" value="a" />
+      <option name="PACKAGE_NAME" value="za.co.discovery.controllers" />
+      <option name="MAIN_CLASS_NAME" value="za.co.discovery.controllers.ShortestPathControllerTest" />
+      <option name="METHOD_NAME" value="rootReturnsIndexPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShortestPathControllerTest.rootReturnsPlanetsPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="za.co.discovery.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DiscoveryProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="za.co.discovery.controllers" />
+      <option name="MAIN_CLASS_NAME" value="za.co.discovery.controllers.ShortestPathControllerTest" />
+      <option name="METHOD_NAME" value="rootReturnsPlanetsPage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -936,20 +985,20 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Application.DiscoveryApplication" />
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.App" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.All in DiscoveryProject" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.App" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FileReadingServiceTest.persistPlanetShouldSavePlanet_AndReturnResult" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FileReadingServiceTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.FileReadingServiceTest.a" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DijkstraAlgorithmTest.testExcute" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ShortestPathControllerTest.getPlanetsReturnsPlanetsPage" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ShortestPathControllerTest.rootReturnsIndexPage" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ShortestPathControllerTest.rootReturnsPlanetsPage" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in DiscoveryProject" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FileReadingServiceTest.a" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FileReadingServiceTest.persistPlanetShouldSavePlanet_AndReturnResult" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FileReadingServiceTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DiscoveryApplication" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShortestPathControllerTest.rootReturnsPlanetsPage" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShortestPathControllerTest.rootReturnsIndexPage" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ShortestPathControllerTest.getPlanetsReturnsPlanetsPage" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DijkstraAlgorithmTest.testExcute" />
       </list>
     </recent_temporary>
   </component>
@@ -968,7 +1017,10 @@
       <workItem from="1459924465463" duration="4433000" />
       <workItem from="1459932841568" duration="3369000" />
       <workItem from="1459936348656" duration="2726000" />
-      <workItem from="1459948585355" duration="32092000" />
+      <workItem from="1459948585355" duration="63393000" />
+      <workItem from="1460310488762" duration="933000" />
+      <workItem from="1460311927813" duration="4904000" />
+      <workItem from="1460441899794" duration="41717000" />
     </task>
     <task id="LOCAL-00001" summary="Test that root returns index page">
       <created>1459933534828</created>
@@ -1012,38 +1064,50 @@
       <option name="project" value="LOCAL" />
       <updated>1459952572976</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add DAO and fileReading service">
+      <created>1460038383875</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1460038383875</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add RouteDAO and import Routes from excel file">
+      <created>1460103087577</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1460103087577</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42650000" />
+    <option name="totallyTimeSpent" value="121505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="2" width="1932" height="1036" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33754304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33527356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39819005" sideWeight="0.50208986" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2238806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32994652" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22933644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21351932" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32712457" sideWeight="0.49791014" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282887" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39954075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39819005" sideWeight="0.49791014" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1070,21 +1134,19 @@
     <MESSAGE value="Add PersistenceConfig file" />
     <MESSAGE value="Add PersistenceConfig and DataSourceConfig files" />
     <MESSAGE value="Add DAO and fileReading service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DAO and fileReading service" />
+    <MESSAGE value="Add RouteDAO and import Routes from excel file" />
+    <MESSAGE value="Get planet from user and calculate shortest distance" />
+    <MESSAGE value="Get planet name from user and calculate shortest distance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get planet name from user and calculate shortest distance" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/FileReadingService.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="8" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="72" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1093,35 +1155,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,9 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,7 +1189,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,7 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,7 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,9 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1197,7 +1228,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1205,23 +1238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16612378">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,7 +1246,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1239,7 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1875">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,44 +1263,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/PersistenceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="57" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/ExcelFileDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="22" selection-end-column="10" />
-          <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#440#441#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/ExcelFileDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19-sources.jar!/org/mockito/Mockito.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="972" column="13" selection-start-line="972" selection-start-column="13" selection-end-line="972" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1293,7 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.53125">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1301,23 +1279,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
-          <folding />
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.2.5.RELEASE/spring-orm-4.2.5.RELEASE.jar!/org/springframework/orm/hibernate5/HibernateTransactionManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3580247">
+          <caret line="323" column="0" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="744" column="25" selection-start-line="744" selection-start-column="25" selection-end-line="744" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/RouteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6567163">
+          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/RouteDAOIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/PlanetDaoIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1325,8 +1335,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/services/DijkstraAlgorithmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="70" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/DijkstraAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
-            <element signature="e#776#777#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2859#2860#0" expanded="false" />
+            <element signature="e#2911#2912#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/PersistenceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/PlanetDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#580#581#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1334,37 +1386,34 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Planet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-          </folding>
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/FileReadingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/planet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1372,34 +1421,143 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/services/FileReadingServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="false" />
+            <element signature="e#895#896#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/PlanetDaoIT.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19-sources.jar!/org/mockito/Mockito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2941175">
+          <caret line="1736" column="123" selection-start-line="1736" selection-start-column="119" selection-end-line="1736" selection-end-column="123" />
+          <folding>
+            <element signature="e#83550#83551#0" expanded="false" />
+            <element signature="e#83621#83622#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/GraphService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#192#193#0" expanded="false" />
+            <element signature="e#226#227#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/PlanetDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/shortestdistance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1832994">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.9375">
+          <caret line="109" column="51" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/path.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/ShortestPathService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <marker date="1460542631500" expanded="true" signature="35:144" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="33" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/FileReadingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="method#getRouteRowValues#0;class#FileReadingService#0" expanded="false" />
+            <element signature="e#3217#3218#0" expanded="false" />
+            <element signature="e#3260#3261#0" expanded="false" />
+            <element signature="e#3305#3306#0" expanded="false" />
+            <element signature="e#3350#3351#0" expanded="false" />
+            <marker date="1460542750456" expanded="true" signature="42:672" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/repository/PathRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/planets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.067961164">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
