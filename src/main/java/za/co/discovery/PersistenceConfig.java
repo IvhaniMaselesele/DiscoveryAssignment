@@ -29,7 +29,7 @@ public class PersistenceConfig {
         return sessionFactory;
     }
 
-    @Bean
+    @Bean(name = "transactionManager")
     @Autowired
     public HibernateTransactionManager transactionManager(final SessionFactory sessionFactory) {
         HibernateTransactionManager txManager = new HibernateTransactionManager();
