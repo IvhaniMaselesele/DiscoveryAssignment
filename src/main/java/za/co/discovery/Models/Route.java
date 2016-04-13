@@ -19,6 +19,8 @@ public class Route {
 
     @Column
     private double distance;
+    @Column
+    private double traffic;
 
     protected Route() {
 
@@ -46,5 +48,21 @@ public class Route {
 
     public void setOrigin(String origin) {
         this.origin = origin;
+    }
+
+    public void setTraffic(double traffic) {
+        this.traffic = traffic;
+    }
+
+    public double getTraffic() {
+        return traffic;
+    }
+
+    public String getOrigin() {
+        return origin;
+    }
+
+    public String getDestination() {
+        return destination;
     }
 }

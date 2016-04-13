@@ -1,0 +1,28 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://spring.io/guides/gs-producing-web-service"
+           targetNamespace="http://spring.io/guides/gs-producing-web-service" elementFormDefault="qualified">
+
+    <xs:element name="getPathRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getPathResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="path" type="tns:path"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="path">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="origin" type="xs:string"/>
+            <xs:element name="destination" type="xs:string"/>
+            <xs:element name="pathList" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
