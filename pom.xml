@@ -104,7 +104,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<packageName>za.co.discovery.assignment</packageName>
+					<packageName>za.co.discovery.Assignment</packageName>
 					<schemaDirectory>${project.basedir}/src/main/resources/</schemaDirectory>
 					<outputDirectory>${project.basedir}/src/main/java</outputDirectory>
 					<clearOutputDir>false</clearOutputDir>
