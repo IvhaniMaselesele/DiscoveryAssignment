@@ -2,7 +2,9 @@ package za.co.discovery.services;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
 import za.co.discovery.Models.Planet;
 import za.co.discovery.Models.Route;
 import za.co.discovery.dataAccess.PlanetDAO;
@@ -13,6 +15,7 @@ import static com.shazam.shazamcrest.matcher.Matchers.sameBeanAs;
 import static org.hamcrest.CoreMatchers.is;
 import static org.mockito.Mockito.when;
 
+@RunWith(MockitoJUnitRunner.class)
 public class FileReadingServiceTest {
     FileReadingService fileReadingService;
     @Mock
