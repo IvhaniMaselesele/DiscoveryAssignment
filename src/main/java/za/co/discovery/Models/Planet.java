@@ -15,7 +15,7 @@ public class Planet {
     @Column
     private String name;
 
-    protected Planet() {
+    public Planet() {
     }
 
     public Planet(String node, String name) {

@@ -43,5 +43,14 @@ public class Graph {
         return null;
     }
 
+    public Edge getEdgeById(String id) {
+        for (Edge edge : edges) {
+            if (id.equals(edge.getId())) {
+                return edge;
+            }
+        }
+        return null;
+    }
+
 
 }

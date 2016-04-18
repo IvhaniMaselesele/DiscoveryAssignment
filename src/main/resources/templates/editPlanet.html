@@ -1,7 +1,7 @@
 <html
-        lang="en">
-
+        lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+
     <title>Noma</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 </head>
@@ -16,7 +16,15 @@
         <br/><br/>
         <a href="/getPlanets" class="btn btn-success optionButtons" role="button">Play Game </a><br/><br/>
         <a href="/planetsList" class="btn btn-success optionButtons" role="button">planetsList </a><br/><br/>
-        <a href="/routesList" class="btn btn-success optionButtons" role="button">routesList </a><br/><br/>
+    </div>
+
+    <div>
+        <form modelAttribute="vertexToEdit" th:object="${vertexToEdit}" th:action="@{/editPlanetPageSubmit}"
+              method="post">
+            <input type="text" th:field="*{name}" name="name"/>
+            <input type="hidden" th:field="*{id}" name="id"/>
+            <button type="submit">Submit</button>
+        </form>
     </div>
 
 </div>

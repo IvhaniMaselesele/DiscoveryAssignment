@@ -1,0 +1,51 @@
+<html
+        lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Noma</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="/js/planet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="text-center">
+
+        <br/><br/>
+
+        <div id="heading">Discovery</div>
+        <br/><br/>
+
+
+        <a href="/getPlanets" class="btn btn-success optionButtons" role="button">Get shortest path</a><br/><br/>
+        <a href="/update" class="btn btn-success optionButtons" role="button">Update</a><br/><br/>
+
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <th></th>
+                <th>Planet name</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr th:each="p,iterationStatus  : ${planets}">
+                <td th:text="${iterationStatus.count}">1</td>
+                <td th:text="${p.name}">001</td>
+                <td><a th:href="${'/editPlanetPage/'}+${p.id}">Edit</a></td>
+                <td><a href="#">Delete</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
+

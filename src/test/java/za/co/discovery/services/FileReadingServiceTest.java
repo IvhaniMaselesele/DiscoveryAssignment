@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
+import za.co.discovery.Models.Graph;
 import za.co.discovery.Models.Planet;
 import za.co.discovery.Models.Route;
 import za.co.discovery.dataAccess.PlanetDAO;
@@ -23,8 +24,11 @@ public class FileReadingServiceTest {
     @Mock
     RouteDAO routeDAO;
 
+    Graph graph;
+
     @Before
     public void init() {
+        graph = new Graph();
         fileReadingService = new FileReadingService(planetDAO, routeDAO, new ShortestPathService());
     }
 
@@ -43,6 +47,14 @@ public class FileReadingServiceTest {
         when(routeDAO.save(expectedRoute)).thenReturn(expectedRoute);
         Route actualRoute = fileReadingService.persistRoute(expectedRoute);
         assertThat(actualRoute, is(sameBeanAs(expectedRoute)));
+    }
+
+    @Test
+    public void readRouteAndTrafficSheets_ShouldPersistRoute() throws Exception{
+        Route route = new Route(1, "random origin", "random destination", 0.2);
+        /*fileReadingService.readRouteAndTrafficSheets(graph);
+        when(fileReadingService.)
+        when(routeDAO.retrieve(id)).thenReturn(route);*/
     }
 
 

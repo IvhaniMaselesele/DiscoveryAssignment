@@ -1,14 +1,19 @@
 package za.co.discovery.Models;
 
 public class Vertex {
-    final private String id;
-    final private String name;
+    String id;
+    String name;
 
 
     public Vertex(String id, String name) {
         this.id = id;
         this.name = name;
     }
+
+    public Vertex() {
+
+    }
+
 
     public String getId() {
         return id;
@@ -48,4 +53,11 @@ public class Vertex {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 }
