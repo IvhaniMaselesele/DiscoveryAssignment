@@ -1,6 +1,7 @@
 package za.co.discovery.services;
 
 import org.hamcrest.CoreMatchers;
+import org.hibernate.SessionFactory;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,8 +14,9 @@ import za.co.discovery.dataAccess.PlanetDAO;
 
 import static com.shazam.shazamcrest.MatcherAssert.assertThat;
 import static com.shazam.shazamcrest.matcher.Matchers.sameBeanAs;
+import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.Matchers.is;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
 public class PlanetServiceTest {
@@ -83,5 +85,34 @@ public class PlanetServiceTest {
         Planet actualPlanet = planetService.createNewPlanet(node, name);
         assertThat(actualPlanet, is(sameBeanAs(expectedPlanet)));
 
+    }
+
+    @Test
+    public void deletePlanet_ShouldRemovePlanet() throws Exception {
+        //TODO : Think of other ways to test this, this test is useless
+        Planet expectedPlanet = new Planet("random node", "random name");
+
+        PlanetDAO planetDAO = new PlanetDAO(mock(SessionFactory.class));
+        PlanetDAO spyPlanetDAO = spy(planetDAO);
+        PlanetService planetService = new PlanetService(spyPlanetDAO);
+
+        doNothing().when(spyPlanetDAO).deleteByNode(expectedPlanet.getNode());
+
+        planetService.deletePlanet(expectedPlanet.getNode());
+    }
+
+    @Test
+    public void deleteVertex_ShouldRemoveVertexFromVerticesList() throws Exception {
+        String vertexName = "random name";
+        String vertexId = "random id";
+        Vertex vertex = new Vertex(vertexId, vertexName);
+        Graph graph = new Graph();
+        graph.addVertex(vertex);
+
+        Graph expectedGraph = new Graph();
+        assertThat(graph, is(not(sameBeanAs(expectedGraph))));
+        planetService.deleteVertex(graph, vertex);
+
+        assertThat(graph, is(sameBeanAs(expectedGraph)));
     }
 }

@@ -1,0 +1,34 @@
+<html
+        lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <title>Noma</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="text-center">
+
+        <br/><br/>
+
+        <div id="heading">Discovery</div>
+        <br/><br/>
+        <a href="/getPlanets" class="btn btn-success optionButtons" role="button">Play Game </a><br/><br/>
+        <a href="/planetsList" class="btn btn-success optionButtons" role="button">planetsList </a><br/><br/>
+    </div>
+
+    <div>
+        <form modelAttribute="newVertex" th:object="${newVertex}" th:action="@{/addPlanetPageSubmit}"
+              method="post">
+            <input type="text" th:field="*{name}" name="name"/>
+            <input type="hidden" th:field="*{id}" name="id"/>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
+

@@ -21,6 +21,7 @@
 
         <a href="/getPlanets" class="btn btn-success optionButtons" role="button">Get shortest path</a><br/><br/>
         <a href="/update" class="btn btn-success optionButtons" role="button">Update</a><br/><br/>
+        <a href="/addPlanetPage" class="btn btn-success optionButtons" role="button">addPlanetPage</a><br/><br/>
 
     </div>
 
@@ -36,7 +37,7 @@
                 <td th:text="${iterationStatus.count}">1</td>
                 <td th:text="${p.name}">001</td>
                 <td><a th:href="${'/editPlanetPage/'}+${p.id}">Edit</a></td>
-                <td><a href="#">Delete</a></td>
+                <td><a th:href="${'/deletePlanet/'}+${p.id}">Delete</a></td>
             </tr>
         </table>
     </div>
