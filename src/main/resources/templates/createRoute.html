@@ -1,17 +1,19 @@
 <html
-        lang="en">
-
+        lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
+
     <title>Noma</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
           integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"/>
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
     <!-- Tether for Bootstrap -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"
             integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7"
             crossorigin="anonymous"></script>
+
 </head>
 <body>
 <nav class="navbar navbar-dark bg-inverse">
@@ -22,6 +24,29 @@
         <a class="nav-item nav-link" href="/routesList">Routes</a>
     </div>
 </nav>
+<div class="container">
+    <div>
+        <form modelAttribute="newEdge" th:object="${newEdge}" th:action="@{/addRoutePageSubmit}"
+              method="post">
+
+            <select class="form-control" th:field="*{sourceId}">
+                <option th:each="vertex : ${planets}" th:value="${vertex.id}" th:text="${vertex.name}">Wireframe
+                </option>
+            </select>
+
+            <select class="form-control" th:field="*{destinationId}">
+                <option th:each="vertex : ${planets}" th:value="${vertex.id}" th:text="${vertex.name}">Wireframe
+                </option>
+            </select>
+
+            <input class="form-control" type="number" step="0.01" th:field="*{weight}"/>
+            <input class="form-control" type="number" step="0.01" th:field="*{traffic}"/>
+            <input type="hidden" th:field="*{edgeId}" name="edgeId"/>
+            <button class="btn btn-success form-control" type="submit">Submit</button>
+        </form>
+    </div>
+
+</div>
 
 </body>
 </html>

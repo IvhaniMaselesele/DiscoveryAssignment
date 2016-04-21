@@ -27,21 +27,23 @@
 </nav>
 <div class="container">
     <div>
-        <form modelAttribute="edge" th:object="${edge}" th:action="@{/editRoutePageSubmit}"
-              method="post">
-            <select class="form-control" id="sourceDropdownList" th:field="*{sourceId}">
+        <form id="deleteItemForm" modelAttribute="edge" th:object="${edge}" th:action="@{/deleteRoute}"
+              method="DELETE">
+            <select class="form-control" id="sourceDropdownList" th:field="*{sourceId}" disabled="disabled">
                 <option th:each="vertex : ${planets}" th:value="${vertex.id}" th:text="${vertex.name}">Wireframe
                 </option>
             </select>
-            <select class="form-control" id="destinationDropdownList" th:field="*{destinationId}">
+            <select class="form-control" id="destinationDropdownList" th:field="*{destinationId}" disabled="disabled">
                 <option th:selected="(${vertex.id} == *{edgeId})" th:each="vertex : ${planets}" th:value="${vertex.id}"
                         th:text="${vertex.name}">Wireframe
                 </option>
             </select>
-            <input class="form-control" type="number" step="0.01" th:field="*{weight}"/>
-            <input class="form-control" type="number" step="0.01" th:field="*{traffic}"/>
+            <input class="form-control" type="number" step="0.01" th:field="*{weight}" readonly="readonly"/>
+            <input class="form-control" type="number" step="0.01" th:field="*{traffic}" readonly="readonly"/>
             <input class="form-control" type="hidden" th:field="*{edgeId}" name="edgeId"/>
-            <button class="btn btn-success form-control" type="submit">Submit</button>
+            <input type="hidden" name="_method" value="DELETE"/>
+            <input type="submit" value="DELETE"/>
+            <!--<button class="btn btn-success form-control" type="submit">Delete</button>-->
         </form>
         <script th:inline="javascript">
             /*<![CDATA[*/
@@ -62,6 +64,28 @@
             }
             /*]]>*/
         </script>
+
+        <!--        <script th:inline="javascript">
+                    $(document).ready(function () {
+                        $('#deleteItemForm').on('submit', function (e) {
+                            e.preventDefault();
+                            var data = $('#destinationDropdownList').val();
+                            var edgeId = [[${edge.edgeId}]];
+                            alert(data);
+                            $.delete("/deleteRoute", {String: edgeId}, function (result) {
+                                alert(edgeId);
+                                console.log(result);
+                                if (result === "success") {
+                                    $("#myModal").modal();
+                                    $('#userFeedbackTextbox').val('')
+                                } else {
+                                    // error modal
+                                }
+                            }, 'text');
+                        });
+                    });
+
+                </script>-->
 
     </div>
 

@@ -5,6 +5,7 @@ import za.co.discovery.Models.Graph;
 import za.co.discovery.Models.Vertex;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class DijkstraAlgorithm {
 
@@ -15,8 +16,9 @@ public class DijkstraAlgorithm {
     private Map<Vertex, Vertex> predecessors;
     private Map<Vertex, Double> distance;
 
+    public boolean withTraffic;
+
     public DijkstraAlgorithm(Graph graph) {
-        // create a copy of the array so that we can operate on this array
         this.nodes = new ArrayList<>(graph.getVertexes());
         this.edges = new ArrayList<>(graph.getEdges());
     }
@@ -50,10 +52,21 @@ public class DijkstraAlgorithm {
 
     }
 
+    public boolean isWithTraffic() {
+        return withTraffic;
+    }
+
+    public void setWithTraffic(boolean withTraffic) {
+        this.withTraffic = withTraffic;
+    }
+
     private double getDistance(Vertex node, Vertex target) {
         for (Edge edge : edges) {
             if (edge.getSource().equals(node)
                     && edge.getDestination().equals(target)) {
+                if (withTraffic) {
+                    return (edge.getTraffic() + edge.getWeight());
+                }
                 return edge.getWeight();
             }
         }
@@ -70,6 +83,12 @@ public class DijkstraAlgorithm {
         }
         return neighbors;
     }
+
+    public List<Edge> getVertexEdges(Vertex node) {
+        List<Edge> neighbors = edges.stream().filter(edge -> edge.getSource().equals(node) || edge.getDestination().equals(node)).collect(Collectors.toList());
+        return neighbors;
+    }
+
 
     private Vertex getMinimum(Set<Vertex> vertexes) {
         Vertex minimum = null;

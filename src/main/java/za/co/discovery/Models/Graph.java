@@ -45,12 +45,10 @@ public class Graph {
 
     public Edge getEdgeById(String id) {
         for (Edge edge : edges) {
-            if (id.equals(edge.getId())) {
+            if (id.equals(edge.getEdgeId())) {
                 return edge;
             }
         }
         return null;
     }
-
-
 }

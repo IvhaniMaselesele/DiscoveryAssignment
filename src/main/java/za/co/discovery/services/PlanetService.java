@@ -2,10 +2,13 @@ package za.co.discovery.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import za.co.discovery.Models.Edge;
 import za.co.discovery.Models.Graph;
 import za.co.discovery.Models.Planet;
 import za.co.discovery.Models.Vertex;
 import za.co.discovery.dataAccess.PlanetDAO;
+
+import java.util.List;
 
 @Service
 public class PlanetService {
@@ -36,5 +39,19 @@ public class PlanetService {
         Vertex vertex = graph.getVertexById(planet.getNode());
         vertex.setName(planet.getName());
         return vertex;
+    }
+
+    public void deleteVertex(Graph graph, Vertex vertexById) {
+        DijkstraAlgorithm dijkstraAlgorithm = new DijkstraAlgorithm(graph);
+        List<Edge> edges = dijkstraAlgorithm.getVertexEdges(vertexById);
+        graph.getEdges().removeAll(edges);
+        /*for (Edge edge : edges){
+            graph.getEdges().remove(edge);
+        }*/
+        graph.getVertexes().remove(vertexById);
+    }
+
+    public void deletePlanet(String planetNode) {
+        planetDAO.deleteByNode(planetNode);
     }
 }

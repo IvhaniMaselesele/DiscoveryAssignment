@@ -8,10 +8,8 @@ import java.util.LinkedList;
 @Service
 public class ShortestPathService {
 
-    //private Graph graph;
     public ShortestPathService() {
     }
-
 
     public String convertPathToString(LinkedList<Vertex> path) {
         String stringPath = "";
@@ -33,27 +31,10 @@ public class ShortestPathService {
         if (originVertex == null || destinationVertex == null) {
             System.out.println("Either your origin or destination does not exist");
         } else {
-            Edge edge = new Edge("route_" + route.getId(), originVertex, destinationVertex, route.getDistance());
+            Edge edge = new Edge("" + route.getId(), originVertex, destinationVertex, route.getDistance());
+            edge.setTraffic(route.getTraffic());
             graph.addEdge(edge);
         }
     }
-    /*
-        nodes = new ArrayList<Vertex>();
-        edges = new ArrayList<Edge>();
-
-        make vertices
-        Vertex location = new Vertex("" + i, "" + i);
-        nodes.add(location);
-
-        Edge lane = new Edge(laneId, nodes.get(sourceLocNo), nodes.get(destLocNo), duration);
-        edges.add(lane);
-
-
-        Graph graph = new Graph(nodes, edges);
-        DijkstraAlgorithm dijkstra = new DijkstraAlgorithm(graph);
-        dijkstra.execute(nodes.get(0));
-        LinkedList<Vertex> path = dijkstra.getPath(nodes.get(10));
-        */
-
 
 }

@@ -1,135 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe0fd06-5bd9-4e2e-80e9-e2df99f5d258" name="Default" comment="Add RouteDAO and import Routes from excel file">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_ws_1_3_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_core_2_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_support_2_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_xml_2_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
-    <list id="07996f7c-433d-44ee-ae4d-324206d36b4a" name="Failed commit: Default" comment="Get planet name from user and calculate shortest distance">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c10.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c101.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c111.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c121.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c130.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c141.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c150.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c161.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c171.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c180.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c191.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1a1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1b1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1c0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1d1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1e0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c1f1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c20.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c200.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c211.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c221.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c230.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c241.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c251.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c260.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c271.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c281.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c290.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2a1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2b1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2c1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2d0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2e1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c2f0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c300.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c31.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c311.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c321.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c331.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c340.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c351.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c361.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c371.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c380.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c391.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3a1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3ab0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3ac1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3ad0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3ae1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3b1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3c0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3d1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3e1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c3f1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c400.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c41.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c411.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c421.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c430.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c441.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c451.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c461.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c470.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c481.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c51.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c60.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c71.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c81.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c8f0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c90.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/c901.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/ca1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/cb1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/cc0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/cd1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/ce1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/cf0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/d3a70.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/d3a81.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/d3a90.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/d3aa1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/db.lck" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/log/log.ctrl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/log/log10.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/log/logmirror.ctrl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/dataObjects/~$planetTravelDetails.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/DijkstraAlgorithm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/za/co/discovery/services/DijkstraAlgorithmTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Edge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/GetPathRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/GetPathResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/GraphService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/Path.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/repository/PathRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/README_DO_NOT_TOUCH_FILES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/log/README_DO_NOT_TOUCH_FILES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/seg0/README_DO_NOT_TOUCH_FILES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/ShortestPathService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Vertex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/derby.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/path.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/planet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/planets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dbDiscoveryAssignment/service.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/shortestdistance.html" />
+    <list default="true" id="07996f7c-433d-44ee-ae4d-324206d36b4a" name="Failed commit: Default" comment="Implement CRUD for route and planet">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/RouteService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/za/co/discovery/services/RouteServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/createRoute.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/deleteRoute.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\db.lck" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\log\README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\log\log.ctrl" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\log\log10.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\log\logmirror.ctrl" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c10.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c101.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c111.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c121.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c130.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c141.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c150.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c161.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c171.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c180.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c191.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c1a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c1b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c1c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c1d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c1e0.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c1f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c20.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c200.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c211.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c221.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c230.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c241.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c251.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c260.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c271.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c281.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c290.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c2a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c2b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c2c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c2d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c2e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c2f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c300.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c31.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c311.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c321.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c331.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c340.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c351.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c361.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c371.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c380.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c391.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c3a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c3b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c3c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c3d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c3e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c3f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c400.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c41.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c411.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c421.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c430.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c441.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c451.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c461.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c470.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c481.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c51.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c60.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c71.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c81.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c8f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c90.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\c901.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\ca1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\cb1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\cc0.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\cd1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\ce1.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\seg0\cf0.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ivhani.Maselesele\Documents\Discovery\DiscoveryAssignment\DiscoveryAssignment\dbDiscoveryAssignment\service.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/controllers/ShortestPathController.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/controllers/ShortestPathController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/DijkstraAlgorithm.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/DijkstraAlgorithm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DiscoveryProject.iml" afterPath="$PROJECT_DIR$/DiscoveryProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Route.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Route.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Edge.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Edge.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/FileReadingService.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/FileReadingService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/Assignment/GetPathRequest.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Assignment/GetPathRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/Assignment/GetPathResponse.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Assignment/GetPathResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Graph.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Graph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/Assignment/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Assignment/ObjectFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/Assignment/Path.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Assignment/Path.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/PlanetService.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/PlanetService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/ShortestPathService.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/services/ShortestPathService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/createPlanet.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/createPlanet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/editPlanet.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/editPlanet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/editRoute.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/editRoute.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/Assignment/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/Assignment/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/planet.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/planet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/planets.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/planets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/planetsList.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/planetsList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/routesList.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/routesList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/shortestdistance.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/shortestdistance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DiscoveryProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -172,19 +158,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FileReadingService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/FileReadingService.java">
+      <file leaf-file-name="routesList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/routesList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.538462">
+              <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiscoveryApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/DiscoveryApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="method#getRouteRowValues#0;class#FileReadingService#0" expanded="false" />
-                <element signature="e#3217#3218#0" expanded="false" />
-                <element signature="e#3260#3261#0" expanded="false" />
-                <element signature="e#3305#3306#0" expanded="false" />
-                <element signature="e#3350#3351#0" expanded="false" />
-                <marker date="1460542750456" expanded="true" signature="42:672" placeholder="..." />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersistenceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/PersistenceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebServiceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/WebServiceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/DataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editRoute.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/editRoute.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3500967">
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,71 +225,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="33" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PathRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/repository/PathRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShortestPathService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/ShortestPathService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-              <folding>
-                <marker date="1460542631500" expanded="true" signature="35:144" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="planets.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/planets.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.067961164">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="path.xsd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/path.xsd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Path.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/Path.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <caret line="162" column="41" selection-start-line="162" selection-start-column="30" selection-end-line="162" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -287,7 +255,6 @@
       <list>
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/DiscoveryApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/excelFileDAO.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/excelFileDAOTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DaoConfig.java" />
@@ -316,17 +283,21 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/shortestdistance.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/planet.js" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/services/GraphService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/services/FileReadingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/services/PathService.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/services/ShortestPathService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Path.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/path.xsd" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/repository/PathRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/planets.html" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/ExcelFileDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/deleteRoute.html" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/routesList.html" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/DataSourceConfig.java" />
       </list>
     </option>
   </component>
@@ -351,9 +322,30 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="2" />
     <option name="width" value="1932" />
-    <option name="height" value="1036" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring MVCSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringMVCViewInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -378,7 +370,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -408,19 +399,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discovery" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,40 +418,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discovery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DiscoveryProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DiscoveryAssignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,11 +439,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DiscoveryProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DiscoveryAssignment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="discovery" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,10 +492,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="discovery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,17 +521,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dataAccess" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gs-soap-service/initial" />
@@ -1008,7 +976,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dbe0fd06-5bd9-4e2e-80e9-e2df99f5d258" name="Default" comment="" />
+      <changelist id="" name="Default" comment="" />
       <created>1459924321158</created>
       <option name="number" value="Default" />
       <updated>1459924321158</updated>
@@ -1021,6 +989,8 @@
       <workItem from="1460310488762" duration="933000" />
       <workItem from="1460311927813" duration="4904000" />
       <workItem from="1460441899794" duration="41717000" />
+      <workItem from="1461231180415" duration="1803000" />
+      <workItem from="1461233036014" duration="5653000" />
     </task>
     <task id="LOCAL-00001" summary="Test that root returns index page">
       <created>1459933534828</created>
@@ -1080,39 +1050,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121505000" />
+    <option name="totallyTimeSpent" value="128961000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="2" width="1932" height="1036" extended-state="0" />
+    <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33527356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33449477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39819005" sideWeight="0.50208986" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22933644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21351932" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32712457" sideWeight="0.49791014" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31939605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22880372" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868758" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263647" sideWeight="0.49791014" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282887" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39819005" sideWeight="0.49791014" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39721254" sideWeight="0.49791014" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21351932" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282887" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1137,16 +1109,25 @@
     <MESSAGE value="Add RouteDAO and import Routes from excel file" />
     <MESSAGE value="Get planet from user and calculate shortest distance" />
     <MESSAGE value="Get planet name from user and calculate shortest distance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get planet name from user and calculate shortest distance" />
+    <MESSAGE value="Implement CRUD for route and planet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement CRUD for route and planet" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="72" />
+      <option name="time" value="80" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1155,43 +1136,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,9 +1176,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,16 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1875">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1303,13 +1239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/RouteDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6567163">
-          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/dataAccess/RouteDAOIT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1331,13 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/DiscoveryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/services/DijkstraAlgorithmTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1351,25 +1273,7 @@
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#2859#2860#0" expanded="false" />
-            <element signature="e#2911#2912#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/PersistenceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/PlanetDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1377,24 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#580#581#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Planet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1407,25 +1293,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Route.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="e#703#704#0" expanded="false" />
-            <element signature="e#801#802#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/services/FileReadingServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="48" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="48" />
-          <folding>
-            <element signature="e#788#789#0" expanded="false" />
-            <element signature="e#895#896#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1444,11 +1316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#192#193#0" expanded="false" />
-            <element signature="e#226#227#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1456,7 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.423077">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1464,17 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.461538">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1488,17 +1343,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/path.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.53038675">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/assignment/Path.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Assignment/Path.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1506,34 +1360,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <marker date="1460542631500" expanded="true" signature="35:144" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/FileReadingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="method#getRouteRowValues#0;class#FileReadingService#0" expanded="false" />
-            <element signature="e#3217#3218#0" expanded="false" />
-            <element signature="e#3260#3261#0" expanded="false" />
-            <element signature="e#3305#3306#0" expanded="false" />
-            <element signature="e#3350#3351#0" expanded="false" />
-            <marker date="1460542750456" expanded="true" signature="42:672" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1548,15 +1375,168 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/repository/PathRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/planets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.067961164">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/RouteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4364641">
+          <caret line="37" column="48" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/controllers/ShortestPathControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="206" column="16" selection-start-line="206" selection-start-column="16" selection-end-line="206" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43149284">
+          <caret line="152" column="11" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/RouteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37423313">
+          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Planet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17382413">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1820041">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/Models/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06952965">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59100205">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/deleteRoute.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4038877">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/services/FileReadingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31288344">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="method#getRouteRowValues#0;class#FileReadingService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/dataAccess/PlanetDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31288344">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/controllers/ShortestPathController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="162" column="41" selection-start-line="162" selection-start-column="30" selection-end-line="162" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/routesList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.538462">
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/DiscoveryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/PersistenceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/WebServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/editRoute.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3500967">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1567,10 +1547,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>DiscoveryProject:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1614,7 +1596,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|DiscoveryProject</last-edited>
+          <last-edited>Web|DiscoveryProject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
